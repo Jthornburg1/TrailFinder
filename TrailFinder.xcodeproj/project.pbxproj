@@ -10,11 +10,15 @@
 		D2F7D1FD1B5575C5006070DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D1FC1B5575C5006070DB /* main.m */; };
 		D2F7D2001B5575C5006070DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D1FF1B5575C5006070DB /* AppDelegate.m */; };
 		D2F7D2031B5575C5006070DB /* TrailFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2011B5575C5006070DB /* TrailFinder.xcdatamodeld */; };
-		D2F7D2061B5575C5006070DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2051B5575C5006070DB /* ViewController.m */; };
+		D2F7D2061B5575C5006070DB /* TrailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2051B5575C5006070DB /* TrailViewController.m */; };
 		D2F7D2091B5575C5006070DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F7D2071B5575C5006070DB /* Main.storyboard */; };
 		D2F7D20B1B5575C5006070DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F7D20A1B5575C5006070DB /* Images.xcassets */; };
 		D2F7D20E1B5575C5006070DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F7D20C1B5575C5006070DB /* LaunchScreen.xib */; };
 		D2F7D21A1B5575C5006070DB /* TrailFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2191B5575C5006070DB /* TrailFinderTests.m */; };
+		D2F7D2251B557E0C006070DB /* Trail.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2241B557E0C006070DB /* Trail.m */; };
+		D2F7D2281B557E1A006070DB /* TrailController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2271B557E1A006070DB /* TrailController.m */; };
+		D2F7D22D1B55AE0D006070DB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D22C1B55AE0D006070DB /* DetailViewController.m */; };
+		D2F7D2311B56FCD6006070DB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F7D2301B56FCD6006070DB /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,22 @@
 		D2F7D1FE1B5575C5006070DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2F7D1FF1B5575C5006070DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D2F7D2021B5575C5006070DB /* TrailFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrailFinder.xcdatamodel; sourceTree = "<group>"; };
-		D2F7D2041B5575C5006070DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2F7D2051B5575C5006070DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2F7D2041B5575C5006070DB /* TrailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailViewController.h; sourceTree = "<group>"; };
+		D2F7D2051B5575C5006070DB /* TrailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailViewController.m; sourceTree = "<group>"; };
 		D2F7D2081B5575C5006070DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2F7D20A1B5575C5006070DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2F7D20D1B5575C5006070DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D2F7D2131B5575C5006070DB /* TrailFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7D2181B5575C5006070DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7D2191B5575C5006070DB /* TrailFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailFinderTests.m; sourceTree = "<group>"; };
+		D2F7D2231B557E0C006070DB /* Trail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trail.h; sourceTree = "<group>"; };
+		D2F7D2241B557E0C006070DB /* Trail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trail.m; sourceTree = "<group>"; };
+		D2F7D2261B557E1A006070DB /* TrailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailController.h; sourceTree = "<group>"; };
+		D2F7D2271B557E1A006070DB /* TrailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailController.m; sourceTree = "<group>"; };
+		D2F7D22C1B55AE0D006070DB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D2F7D22E1B55AE1B006070DB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D2F7D22F1B56FCD6006070DB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D2F7D2301B56FCD6006070DB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +97,16 @@
 			children = (
 				D2F7D1FE1B5575C5006070DB /* AppDelegate.h */,
 				D2F7D1FF1B5575C5006070DB /* AppDelegate.m */,
-				D2F7D2041B5575C5006070DB /* ViewController.h */,
-				D2F7D2051B5575C5006070DB /* ViewController.m */,
+				D2F7D2041B5575C5006070DB /* TrailViewController.h */,
+				D2F7D2051B5575C5006070DB /* TrailViewController.m */,
+				D2F7D2261B557E1A006070DB /* TrailController.h */,
+				D2F7D2271B557E1A006070DB /* TrailController.m */,
+				D2F7D22E1B55AE1B006070DB /* DetailViewController.h */,
+				D2F7D22C1B55AE0D006070DB /* DetailViewController.m */,
+				D2F7D22F1B56FCD6006070DB /* MapViewController.h */,
+				D2F7D2301B56FCD6006070DB /* MapViewController.m */,
+				D2F7D2231B557E0C006070DB /* Trail.h */,
+				D2F7D2241B557E0C006070DB /* Trail.m */,
 				D2F7D2071B5575C5006070DB /* Main.storyboard */,
 				D2F7D20A1B5575C5006070DB /* Images.xcassets */,
 				D2F7D20C1B5575C5006070DB /* LaunchScreen.xib */,
@@ -223,9 +243,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F7D2031B5575C5006070DB /* TrailFinder.xcdatamodeld in Sources */,
+				D2F7D2251B557E0C006070DB /* Trail.m in Sources */,
 				D2F7D2001B5575C5006070DB /* AppDelegate.m in Sources */,
-				D2F7D2061B5575C5006070DB /* ViewController.m in Sources */,
+				D2F7D2311B56FCD6006070DB /* MapViewController.m in Sources */,
+				D2F7D2061B5575C5006070DB /* TrailViewController.m in Sources */,
+				D2F7D2281B557E1A006070DB /* TrailController.m in Sources */,
 				D2F7D1FD1B5575C5006070DB /* main.m in Sources */,
+				D2F7D22D1B55AE0D006070DB /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +444,7 @@
 				D2F7D21F1B5575C5006070DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2F7D2201B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +453,7 @@
 				D2F7D2221B5575C5006070DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
