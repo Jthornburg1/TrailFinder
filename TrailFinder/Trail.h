@@ -10,8 +10,8 @@
 
 @interface Trail : NSObject
 
-@property (nonatomic) double latitude;
-@property (nonatomic) double longitude;
+@property (nonatomic, assign) NSNumber *latitude;
+@property (nonatomic, assign) NSNumber *longitude;
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *city;
 @property (strong, nonatomic) NSString *state;

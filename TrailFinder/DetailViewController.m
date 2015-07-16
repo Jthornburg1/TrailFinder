@@ -34,15 +34,15 @@
     }
     
 }
-- (IBAction)mapItButtonTapped:(id)sender {
-    
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://maps.apple.com/?ssl=%f,%f", self.trail.latitude, self.trail.longitude]];
-    [[UIApplication sharedApplication] openURL:url];
-    
-    double latitude = self.trail.latitude;
-    double longitude = self.trail.longitude;
-    
-    MKPlacemark *placeMark = [[MKPlacemark alloc] initWithCoordinate:<#(CLLocationCoordinate2D)#> addressDictionary:<#(NSDictionary *)#>]
-}
+//- (IBAction)mapItButtonTapped:(id)sender {
+//    
+//    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://maps.apple.com/?ssl=%f,%f", self.trail.latitude, self.trail.longitude]];
+//    [[UIApplication sharedApplication] openURL:url];
+//    
+//    double latitude = self.trail.latitude;
+//    double longitude = self.trail.longitude;
+//    
+//    MKPlacemark *placeMark = [[MKPlacemark alloc] initWithCoordinate:<#(CLLocationCoordinate2D)#> addressDictionary:<#(NSDictionary *)#>]
+//}
 
 @end
