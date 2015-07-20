@@ -14,6 +14,6 @@
 @interface DetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView *textView2;
 @property (strong, nonatomic) Trail *trail;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
-@property (weak, nonatomic) IBOutlet UIButton *mapItButton;
 @end

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2F7D1F61B5575C5006070DB"
-               BuildableName = "TrailFinder.app"
-               BlueprintName = "TrailFinder"
-               ReferencedContainer = "container:TrailFinder.xcodeproj">
+               BuildableName = "TrailHeadFinder.app"
+               BlueprintName = "TrailHeadFinder"
+               ReferencedContainer = "container:TrailHeadFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2F7D2121B5575C5006070DB"
-               BuildableName = "TrailFinderTests.xctest"
-               BlueprintName = "TrailFinderTests"
-               ReferencedContainer = "container:TrailFinder.xcodeproj">
+               BuildableName = "TrailHeadFinderTests.xctest"
+               BlueprintName = "TrailHeadFinderTests"
+               ReferencedContainer = "container:TrailHeadFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2F7D2121B5575C5006070DB"
-               BuildableName = "TrailFinderTests.xctest"
-               BlueprintName = "TrailFinderTests"
-               ReferencedContainer = "container:TrailFinder.xcodeproj">
+               BuildableName = "TrailHeadFinderTests.xctest"
+               BlueprintName = "TrailHeadFinderTests"
+               ReferencedContainer = "container:TrailHeadFinder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2F7D1F61B5575C5006070DB"
-            BuildableName = "TrailFinder.app"
-            BlueprintName = "TrailFinder"
-            ReferencedContainer = "container:TrailFinder.xcodeproj">
+            BuildableName = "TrailHeadFinder.app"
+            BlueprintName = "TrailHeadFinder"
+            ReferencedContainer = "container:TrailHeadFinder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2F7D1F61B5575C5006070DB"
-            BuildableName = "TrailFinder.app"
-            BlueprintName = "TrailFinder"
-            ReferencedContainer = "container:TrailFinder.xcodeproj">
+            BuildableName = "TrailHeadFinder.app"
+            BlueprintName = "TrailHeadFinder"
+            ReferencedContainer = "container:TrailHeadFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2F7D1F61B5575C5006070DB"
-            BuildableName = "TrailFinder.app"
-            BlueprintName = "TrailFinder"
-            ReferencedContainer = "container:TrailFinder.xcodeproj">
+            BuildableName = "TrailHeadFinder.app"
+            BlueprintName = "TrailHeadFinder"
+            ReferencedContainer = "container:TrailHeadFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

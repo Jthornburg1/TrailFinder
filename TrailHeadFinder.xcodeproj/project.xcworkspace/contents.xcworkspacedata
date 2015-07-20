@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TrailFinder.xcodeproj">
+      location = "self:/Users/jonathanthornburg1/Desktop/Code/TrailFinder/TrailHeadFinder.xcodeproj">
    </FileRef>
 </Workspace>

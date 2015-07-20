@@ -28,9 +28,14 @@
 - (void)updateWithTrail
 {
     if (self.trail.directions == (id)[NSNull null]) {
-        self.textView2.text = @"Sorry, no directions available for this ride.";
+        self.textView2.text = @"Sorry, no directions available for this trail.";
     }else{
         self.textView2.text = self.trail.directions;
+    }
+    if (self.trail.description == (id)[NSNull null]) {
+        self.textView.text = @"Sorry, no description available for this trail.";
+    }else{
+        self.textView.text = [NSString stringWithFormat:@"Directions to %@", self.trail.name];
     }
     
 }

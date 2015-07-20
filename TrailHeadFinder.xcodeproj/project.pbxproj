@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2F7D1F71B5575C5006070DB /* TrailFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7D1F71B5575C5006070DB /* TrailHeadFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailHeadFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7D1FB1B5575C5006070DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7D1FC1B5575C5006070DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2F7D1FE1B5575C5006070DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		D2F7D2081B5575C5006070DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2F7D20A1B5575C5006070DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2F7D20D1B5575C5006070DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D2F7D2131B5575C5006070DB /* TrailFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7D2131B5575C5006070DB /* TrailHeadFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailHeadFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7D2181B5575C5006070DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7D2191B5575C5006070DB /* TrailFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailFinderTests.m; sourceTree = "<group>"; };
 		D2F7D2231B557E0C006070DB /* Trail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trail.h; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 		D2F7D1F81B5575C5006070DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2F7D1F71B5575C5006070DB /* TrailFinder.app */,
-				D2F7D2131B5575C5006070DB /* TrailFinderTests.xctest */,
+				D2F7D1F71B5575C5006070DB /* TrailHeadFinder.app */,
+				D2F7D2131B5575C5006070DB /* TrailHeadFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2F7D1F61B5575C5006070DB /* TrailFinder */ = {
+		D2F7D1F61B5575C5006070DB /* TrailHeadFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F7D21D1B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailFinder" */;
+			buildConfigurationList = D2F7D21D1B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailHeadFinder" */;
 			buildPhases = (
 				D2F7D1F31B5575C5006070DB /* Sources */,
 				D2F7D1F41B5575C5006070DB /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = TrailFinder;
+			name = TrailHeadFinder;
 			productName = TrailFinder;
-			productReference = D2F7D1F71B5575C5006070DB /* TrailFinder.app */;
+			productReference = D2F7D1F71B5575C5006070DB /* TrailHeadFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2F7D2121B5575C5006070DB /* TrailFinderTests */ = {
+		D2F7D2121B5575C5006070DB /* TrailHeadFinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F7D2201B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailFinderTests" */;
+			buildConfigurationList = D2F7D2201B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailHeadFinderTests" */;
 			buildPhases = (
 				D2F7D20F1B5575C5006070DB /* Sources */,
 				D2F7D2101B5575C5006070DB /* Frameworks */,
@@ -170,9 +170,9 @@
 			dependencies = (
 				D2F7D2151B5575C5006070DB /* PBXTargetDependency */,
 			);
-			name = TrailFinderTests;
+			name = TrailHeadFinderTests;
 			productName = TrailFinderTests;
-			productReference = D2F7D2131B5575C5006070DB /* TrailFinderTests.xctest */;
+			productReference = D2F7D2131B5575C5006070DB /* TrailHeadFinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2F7D1F21B5575C5006070DB /* Build configuration list for PBXProject "TrailFinder" */;
+			buildConfigurationList = D2F7D1F21B5575C5006070DB /* Build configuration list for PBXProject "TrailHeadFinder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -206,8 +206,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2F7D1F61B5575C5006070DB /* TrailFinder */,
-				D2F7D2121B5575C5006070DB /* TrailFinderTests */,
+				D2F7D1F61B5575C5006070DB /* TrailHeadFinder */,
+				D2F7D2121B5575C5006070DB /* TrailHeadFinderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* Begin PBXTargetDependency section */
 		D2F7D2151B5575C5006070DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2F7D1F61B5575C5006070DB /* TrailFinder */;
+			target = D2F7D1F61B5575C5006070DB /* TrailHeadFinder */;
 			targetProxy = D2F7D2141B5575C5006070DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -371,7 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrailFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TrailHeadFinder;
 			};
 			name = Debug;
 		};
@@ -381,7 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrailFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TrailHeadFinder;
 			};
 			name = Release;
 		};
@@ -399,8 +399,8 @@
 				);
 				INFOPLIST_FILE = TrailFinderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailFinder.app/TrailFinder";
+				PRODUCT_NAME = TrailHeadFinderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailHeadFinder.app/TrailHeadFinder";
 			};
 			name = Debug;
 		};
@@ -414,15 +414,15 @@
 				);
 				INFOPLIST_FILE = TrailFinderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailFinder.app/TrailFinder";
+				PRODUCT_NAME = TrailHeadFinderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailHeadFinder.app/TrailHeadFinder";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2F7D1F21B5575C5006070DB /* Build configuration list for PBXProject "TrailFinder" */ = {
+		D2F7D1F21B5575C5006070DB /* Build configuration list for PBXProject "TrailHeadFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F7D21B1B5575C5006070DB /* Debug */,
@@ -431,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F7D21D1B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailFinder" */ = {
+		D2F7D21D1B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailHeadFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F7D21E1B5575C5006070DB /* Debug */,
@@ -440,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F7D2201B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailFinderTests" */ = {
+		D2F7D2201B5575C5006070DB /* Build configuration list for PBXNativeTarget "TrailHeadFinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F7D2211B5575C5006070DB /* Debug */,
