@@ -70,6 +70,10 @@
     Trail *trail = self.trails[indexPath.row];
     
     cell.textLabel.text = trail.name;
+    if (trail.state == (id)[NSNull null]) {
+        cell.detailTextLabel.text = @"N/A";
+    }else
+        cell.detailTextLabel.text = trail.state;
     
     return cell;
 }
